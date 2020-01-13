@@ -1,0 +1,10 @@
+nav {
+  display: flex;
+  align-items: baseline;  
+}
+
+
+.youtube-logo img {
+  width: 70px;
+  background-color: black;
+}
