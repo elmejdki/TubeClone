@@ -1,10 +1,27 @@
 nav {
   display: flex;
-  align-items: baseline;  
+  align-items: baseline; 
+  
 }
 
 
 .youtube-logo img {
   width: 70px;
   background-color: black;
+}
+
+.search-form{
+  margin-top:15px;
+  float:left;
+  margin-left: 100px;
+}
+
+.input[type=text]{
+  padding: 7px;
+  border: none;
+  font-size:16px;
+}
+.right{
+  float: right;
+  margin-left:250px
 }
