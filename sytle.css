@@ -93,7 +93,8 @@ main {
 
 .main-content{
   display: flex;
-  flex-grow:1;
+  flex-shrink:1;
+  max-width: 1000px;
 }
 
 .side-bar{
@@ -103,8 +104,6 @@ main {
 
 .video-content{
   margin: 0 auto;
-  padding: 30px;
-  height: 600px;
   display: flex;
   flex-direction: column;
   font-size: 12px;
@@ -141,6 +140,7 @@ hr {
 
 #info-img{
   width: 50px;
+  height: 50px;
 }
 
 .profile{
@@ -194,18 +194,43 @@ hr {
   font-size: 16px;
 }
 
-.info-img{
+.info-img {
   border-radius:50%;
   width:40px;
+  height: 40px;
+  margin-right: 10px;
 }
 
-.comment{
+.comment {
   display:flex;
 }
 
-.comment-paragraph{
+.comment-paragraph {
   display:inline-block;
+  font-weight: 600;
 }
+
+.comment-paragraph + span {
+  color: gray;
+  cursor: pointer;
+}
+
+.comment-paragraph + span:hover {
+  color: black;
+}
+
+.comment .like {
+  border: none;
+}
+
+.comment .uil {
+  font-size: 16px;
+}
+
+.comment-body {
+  margin: 5px 0;
+}
+
 /* here is our footer css code */
 
 footer {
