@@ -13,16 +13,22 @@
 
 nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   margin: 10px 20px;
 }
 
 .youtube-logo img {
+  cursor: pointer;
   width: 80px;
 }
 
 .center {
   flex-grow: 1;
+}
+
+.right {
+  display: flex;
+  align-items: center;
 }
 
 .search-form {
@@ -52,8 +58,13 @@ nav {
 }
 
 .uil {
+  cursor: pointer;
   font-size: 25px;
   color: grey;
+}
+
+.uil:hover {
+  color: black;
 }
 
 .profile-pic {
@@ -124,18 +135,65 @@ hr {
 
 .info{
   display: flex;
-
+  align-items: center;
+  font-size: 14px;
 }
 
 #info-img{
-  width: 50px 
+  width: 50px;
 }
 
 .profile{
-  width: 50px;
-  height:50px;
-  margin:10px;
+  padding-right: 10px;
 }
+
+.profile-name {
+  font-weight: 600;
+}
+
+.num-subs {
+  color: grey;
+}
+
+.subs-btn {
+  border: none;
+  padding: 10px 15px;
+  background-color: #cc0000;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+.video-discription {
+  padding: 20px 0 10px 60px;
+  border-bottom: 1px solid gray;
+}
+
+.show-more{
+  color: gray;
+  margin: 10px 0;
+  cursor: pointer;
+  font-weight: 600;
+  width: 80px;
+}
+
+.show-more:hover{
+  color: black;
+}
+
+.sortby{
+  color: grey;
+}
+
+.comments-title{
+  font-size: 16px;
+  padding: 20px 0;
+}
+
+.uil-sort-amount-down{
+  font-size: 16px;
+}
+
 /* here is our footer css code */
 
 footer {
