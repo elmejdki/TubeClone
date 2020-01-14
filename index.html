@@ -9,31 +9,54 @@
     <link rel="stylesheet" href="sytle.css" />
   </head>
   <body>
-    <nav>
-      <div class="left">
-        <i class='uil uil-list-ul'></i>
-        <span class="youtube-logo">
-          <img src="./assets/youtube-icon.png" alt="youtube logo" />
-        </span>
-      </div>
+    <div class="container">
+      <nav>
+        <div class="left">
+          <i class='uil uil-list-ul'></i>
+          <span class="youtube-logo">
+            <img src="./assets/youtube-icon.png" alt="youtube logo" />
+          </span>
+        </div>
 
-      <div class="center">
-        <form class="search-form">
-        <input type="text" name="search" id="search-input" />
-        <button>
-            <i class='uil uil-search'></i>
+        <div class="center">
+          <form class="search-form">
+          <input type="text" name="search" id="search-input" placeholder="Search" />
+          <button class="search-btn">
+              <i class='uil uil-search'></i>
+          </button>
+        </form>
+        </div>
 
-        </button>
-      </form>
-      </div>
+        <div class="right">
+          <i class='uil uil-video'></i>
+          <i class='uil uil-apps'></i>
+          <i class='uil uil-bell'></i>
+          <span class="profile-pic">
+            <img src="./assets/profile.jpg" alt="profile picture">
+          </span>
+        </div>
+      </nav>
 
-      <div class="right">
-        <i class='uil uil-video'></i>
-        <i class='uil uil-apps'></i>
-        <i class='uil uil-bell'></i>
-        <span class="profile-pic"></span>
-      </div>
-    </nav>
-    
+      <main>
+        <section>
+          <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/GHbsGoFJf8Y" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          
+          </iframe>
+        </section>
+        <aside>
+
+        </aside>
+      </main>
+
+      <footer>
+
+      </footer>
+    </div>
   </body>
 </html>
