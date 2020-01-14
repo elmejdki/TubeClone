@@ -194,6 +194,18 @@ hr {
   font-size: 16px;
 }
 
+.info-img{
+  border-radius:50%;
+  width:40px;
+}
+
+.comment{
+  display:flex;
+}
+
+.comment-paragraph{
+  display:inline-block;
+}
 /* here is our footer css code */
 
 footer {
