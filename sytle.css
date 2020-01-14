@@ -69,9 +69,30 @@ nav {
 /* here is our main css code */
 
 main {
-  background-color: black;
+  background-color: lightgrey;
   width: 100%;
-  height: 30px;
+  height: 500px;
+  display:flex;
+}
+.col{
+  margin-left:0.5rem;
+  margin-right: 0.5rem;
+  padding:1rem;
+}
+.main-content{
+  display: flex;
+  flex-grow:3;
+  background-color:blue;
+
+}
+.side-bar{
+  
+  background-color: red;
+  width:500px;
+}
+.video-content{
+ margin: 0 auto;
+  
 }
 
 /* here is our footer css code */
@@ -81,3 +102,4 @@ footer {
   width: 100%;
   height: 30px;
 }
+
