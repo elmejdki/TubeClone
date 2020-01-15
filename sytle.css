@@ -83,6 +83,7 @@ main {
   background-color: #f9f9f9;
   width: 100%;
   display:flex;
+  justify-content: center;
 }
 
 .col{
@@ -196,8 +197,8 @@ hr {
 
 .info-img {
   border-radius:50%;
-  width:40px;
-  height: 40px;
+  width:40px !important;
+  height: 40px !important;
   margin-right: 10px;
 }
 
@@ -227,8 +228,17 @@ hr {
   font-size: 16px;
 }
 
+.comment .uil-ellipsis-v {
+  color: white;
+}
+
 .comment-body {
   margin: 5px 0;
+  width: 90%;
+}
+
+.comment:hover .uil-ellipsis-v {
+  color: rgb(80, 79, 79);
 }
 
 /* here is our footer css code */
