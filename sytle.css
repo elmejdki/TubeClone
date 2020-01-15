@@ -15,6 +15,13 @@ body {
 
 /* styling our navbar */
 
+header {
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+  width: 100%;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -84,6 +91,7 @@ nav {
 /* here is our main css code */
 
 main {
+  padding-top: 50px;
   background-color: #f9f9f9;
   width: 100%;
   display:flex;
@@ -120,16 +128,12 @@ main {
 
 .video-info {
   margin: 10px 0;
-  border-bottom: 1px solid grey;
+  font-size: 14px;
 }
 
 .details {
   display: flex;
   margin: 10px 0 ;
-}
-
-hr {
-  color: gray;
 }
 
 .details .uil {
@@ -140,6 +144,7 @@ hr {
   display: flex;
   align-items: center;
   font-size: 14px;
+  margin-top: 10px;
 }
 
 #info-img{
@@ -170,7 +175,6 @@ hr {
 
 .video-discription {
   padding: 20px 0 10px 60px;
-  border-bottom: 1px solid gray;
 }
 
 .show-more{
@@ -339,6 +343,7 @@ input:checked + .slider:before {
 
 .video-description {
   flex-shrink: 1;
+  font-size: 14px;
 }
 
 .video-title {
@@ -404,12 +409,33 @@ input:checked + .slider:before {
   color: white;
 }
 
-hr{
+hr {
   border: 0;
   height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  background: rgb(218, 218, 218);
+  width: 100%;
+  margin: 10px auto;
 }
+
+.loader {
+  display: block;
+  background-image: url("./assets/loader.gif");
+  height: 30px;
+  width: 30px;
+  margin: 50px auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.thumbnail-container .uil-ellipsis-v {
+  visibility: hidden;
+}
+
+.thumbnail-container:hover .uil-ellipsis-v {
+  visibility: visible;
+}
+
+
 
 /* here is our footer css code */
 
