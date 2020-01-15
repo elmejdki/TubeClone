@@ -98,6 +98,12 @@ main {
   justify-content: center;
 }
 
+.main-content-iframe {
+  width: auto;
+  height: 460;
+  border: none;
+}
+
 .col{
   margin-left:0.5rem;
   margin-right: 0.5rem;
@@ -375,7 +381,7 @@ input:checked + .slider:before {
   top: -10px;
 }
 
-#mouseover-overlay {
+.mouseover-overlay {
   color: white;
   right: 5px;
   position: absolute;
@@ -386,11 +392,11 @@ input:checked + .slider:before {
   border-radius: 5px;
 }
 
-.video-img:hover #mouseover-overlay {
+.video-img:hover .mouseover-overlay {
   visibility: visible;
 }
 
-#hover-overlay {
+.hover-overlay {
   color: white;
   right: 5px;
   position: absolute;
@@ -401,7 +407,7 @@ input:checked + .slider:before {
   border-radius: 5px;
 }
 
-.video-img:hover #hover-overlay {
+.video-img:hover .hover-overlay {
   visibility: visible;
 }
 
