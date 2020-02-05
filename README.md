@@ -25,15 +25,15 @@ To make this repository working in your local machine you need only a browser.
 
 👤 **Zakariae El Mejdki**
 
-- Github: [@githubhandle](https://github.com/elmejdki)
-- Twitter: [@twitterhandle](https://twitter.com/0ca7848f87ab470)
-- Linkedin: [linkedin](https://www.linkedin.com/in/zakariae-el-mejdki-644898139/)
+- Github: [@elmejdki](https://github.com/elmejdki)
+- Twitter: [@ZakariaeElMejdki](https://twitter.com/0ca7848f87ab470)
+- Linkedin: [Zakariae El Mejdki](https://www.linkedin.com/in/zakariae-el-mejdki-644898139/)
 
 👤 **Paul Chinweokwu Morah**
 
-- Github: [@githubhandle](https://github.com/chinweokwu)
-- Twitter: [@twitterhandle](https://twitter.com/Morah89820846)
-- Linkedin: [linkedin](https://www.linkedin.com/in/paul-morah-285b63172/)
+- Github: [@chinweokwu](https://github.com/chinweokwu)
+- Twitter: [@Morah](https://twitter.com/Morah89820846)
+- Linkedin: [Paul Morah](https://www.linkedin.com/in/paul-morah-285b63172/)
 
 ## 🤝 Contributing
 
